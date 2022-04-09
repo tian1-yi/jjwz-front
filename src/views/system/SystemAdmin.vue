@@ -97,7 +97,7 @@
           <el-row>
             <el-col :span="12">
               <el-form-item label="请选择用户角色：" prop="roles">
-                <el-select v-model="account.roleIds" multiple placeholder="请选择用户角色" style="width: 230px;">
+                <el-select v-model="account.roleIds" multiple placeholder="请选择用户角色" style="width: 230px;" >
                   <el-option
                       v-for="(r,index) in allRoles"
                       :key="index"
